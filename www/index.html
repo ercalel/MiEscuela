@@ -1,30 +1,132 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-    <head>
-    <!--
-        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
-        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
-    -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
-        
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>MiEscuela</title>
-    </head>
-    <body>
-        <div class="app">
-            <h1>Hola mundo!</h1>
+<head>
+	<!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap:  https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="msapplication-tap-highlight" content="no">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+	<link rel="stylesheet" type="text/css" href="jquery-easyui-1.6.9/themes/metro/easyui.css">
+	<link rel="stylesheet" type="text/css" href="jquery-easyui-1.6.9/themes/mobile.css">
+	<link rel="stylesheet" type="text/css" href="jquery-easyui-1.6.9/themes/color.css">
+	<link rel="stylesheet" type="text/css" href="jquery-easyui-1.6.9/themes/icon.css">
+	<script type="text/javascript" src="jquery-easyui-1.6.9/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery-easyui-1.6.9/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="jquery-easyui-1.6.9/jquery.easyui.mobile.js"></script>
 
-            <div id="deviceready" class="blink">
-                <p class="event listening">Conectando . . .</p>
-                <p class="event received">Listo . . .</p>
-            </div>
-        </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
-        <script type="text/javascript" src="scripts/index.js"></script>
-    </body>
+	<title>MiEscuela</title>
+</head>
+<body>
+	<div class="easyui-navpanel">
+		<header>
+			<div class="m-toolbar">
+				<span class="m-title">Establecimientos de Guatemala</span>
+			</div>
+		</header>
+		<div style="margin:20px auto;width:100px;height:100px;border-radius:100px;overflow:hidden">
+			<img src="images/school.png" style="margin:0;width:100%;height:100%;">
+		</div>
+		<div style="padding:0 20px">
+			<div style="margin-bottom:10px">
+				<input class="easyui-combobox" style="width:100%;height:38px" data-options="
+                    url:'data/departamentos.json',
+                    method:'get',
+                    valueField:'Codigo_dep',
+                    textField:'Departamento',
+					prompt:'Departamento...',
+					onChange: function(departamento) {
+					   var municipios = $('#municipio');
+						municipios.combobox('loadData', []);
+						$.getJSON('data/municipios.json', function (data) {
+							$.each(data, function (id, value) {
+								if (value.Codigo_dep == departamento) {
+									var data = municipios.combobox('getData');
+									data.push(value);
+									municipios.combobox('loadData', data);
+								}
+							});							
+						});
+					}" id="departamento">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-combobox" style="width:100%;height:38px" data-options="
+					   valueField:'Codigo_mun',
+					   textField:'Municipio',
+					   prompt:'Municipio...'" id="municipio">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-combobox" style="width:100%;height:38px" data-options="
+                    url:'data/niveles.json',
+                    method:'get',
+                    valueField:'Codigo_niv',
+                    textField:'Nivel',
+					prompt:'Nivel...',
+					panelHeight:'auto'" id="nivel">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-combobox" style="width:100%;height:38px" data-options="
+                    url:'data/sectores.json',
+                    method:'get',
+                    valueField:'Codigo_sec',
+                    textField:'Sector',
+					prompt:'Sector...',
+					panelHeight:'auto'" id="sector">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;height:38px" data-options="
+					   prompt:'Nombre de la escuela...'" id="nombre_escuela">
+			</div>
+			<div style="text-align:center;margin-top:30px">
+				<a href="#pagina2" class="easyui-linkbutton c6" style="width:100%;height:40px" data-options="
+				   animation:'pop',direction:''" 				   
+				   id="buscar">
+					<span style="font-size:16px">Buscar</span>
+				</a>
+			</div>
+			<div style="text-align:center;margin-top:30px">
+				<a href="#" class="easyui-linkbutton c5" style="width:100%;height:40px" id="limpiar"><span style="font-size:16px">Limpiar</span></a>
+			</div>
+		</div>
+	</div>
+
+	<div id="pagina2" class="easyui-navpanel">
+		<header>
+			<div class="m-toolbar">
+				<div class="m-left">
+					<a href="#" class="easyui-linkbutton m-back" data-options="plain:true,outline:true,back:true">Regresar</a>
+				</div>
+				<div class="m-title">Lista de establecimientos</div>
+			</div>
+		</header>
+		<table  class="easyui-datagrid" data-options="
+			   singleSelect:true,
+			   border:false,
+			   fit:true,
+			   fitColumns:true,
+			   scrollbarSize:0" id="dgEstablecimientos">
+			<thead>
+				<tr>
+					<th data-options="field:'Nombre_Est'" width="100%">Nombre</th>
+				</tr>
+			</thead>
+		</table>
+
+		<div id="no_departamento" class="easyui-dialog" style="padding:20px 6px;width:80%;" data-options="inline:true,modal:true,closed:true,title:'Information'">
+			<p style="text-align:center">Se necesita el departamento.</p>
+			<div class="dialog-button">
+				<a href="javascript:void(0)" class="easyui-linkbutton" style="width:100%;height:35px" onclick="$('#no_departamento').dialog('close')">OK</a>
+			</div>
+		</div>
+		<div id="no_municipio" class="easyui-dialog" style="padding:20px 6px;width:80%;" data-options="inline:true,modal:true,closed:true,title:'Information'">
+			<p style="text-align:center">Se necesita el munnicipio.</p>
+			<div class="dialog-button">
+				<a href="javascript:void(0)" class="easyui-linkbutton" style="width:100%;height:35px" onclick="$('#no_municipio').dialog('close')">OK</a>	
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="scripts/platformOverrides.js"></script>
+	<script type="text/javascript" src="scripts/index.js"></script>
+</body>
 </html>

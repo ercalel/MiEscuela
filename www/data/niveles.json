@@ -1,0 +1,22 @@
+﻿[
+	{
+		"Codigo_niv": "1",
+		"Nivel": "PREPRIMARIA"
+	},
+	{
+		"Codigo_niv": "2",
+		"Nivel": "PRIMARIA"
+	},
+	{
+		"Codigo_niv": "3",
+		"Nivel": "PRIMARIA DE ADULTOS"
+	},
+	{
+		"Codigo_niv": "4",
+		"Nivel": "BASICO"
+	},
+	{
+		"Codigo_niv": "5",
+		"Nivel": "DIVERSIFICADO"
+	}
+]

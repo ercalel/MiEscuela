@@ -1,23 +1,17 @@
-﻿// For an introduction to the Blank template, see the following documentation:
-// http://go.microsoft.com/fwlink/?LinkID=397704
-// To debug code on page load in cordova-simulate or on Android devices/emulators: launch your app, set breakpoints, 
-// and then run "window.location.reload()" in the JavaScript Console.
-(function () {
+﻿(function () {
     "use strict";
 
-    document.addEventListener( 'deviceready', onDeviceReady.bind( this ), false );
+    document.addEventListener('deviceready', onDeviceReady.bind(this), false);
 
     function onDeviceReady() {
         // Handle the Cordova pause and resume events
-        document.addEventListener( 'pause', onPause.bind( this ), false );
-        document.addEventListener( 'resume', onResume.bind( this ), false );
-        
-        // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
-        var parentElement = document.getElementById('deviceready');
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+        document.addEventListener('pause', onPause.bind(this), false);
+        document.addEventListener('resume', onResume.bind(this), false);
+
+        // Página 1
+        document.getElementById("buscar").addEventListener('click', buscar_escuela, false);
+        // Fin página 1....................................................................................
+
     };
 
     function onPause() {
@@ -27,4 +21,42 @@
     function onResume() {
         // TODO: This application has been reactivated. Restore application state here.
     };
-} )();
+
+    function buscar_escuela() {
+        var departamento = $('#departamento').combobox('getValue');
+        var municipio = $('#municipio').combobox('getValue');
+
+        if (departamento == "") {
+            $('#no_departamento').dialog('open').dialog('center');
+        } else {
+            if (municipio == "") {
+                $('#no_municipio').dialog('open').dialog('center');
+            } else {
+                var dgEstablecimientos = $('#dgEstablecimientos');
+                dgEstablecimientos.datagrid('loadData', []);
+                
+                //$.ajax({
+                //    type: 'get',
+                //    url: 'data/establecimientos.json',
+                //    cache: false,
+                //    dataType: "json",
+                //    success:function (data) {
+                //        console.log(data);
+                //    },
+                //    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                //        console.log("Status: " + textStatus);
+                //        console.log("Error: " + errorThrown);
+                //    } 
+                //});
+
+                $.getJSON('data/establecimientos.json', function (data) {
+                    $.each(data, function (id, value) {
+                        if (value.Codigo_dep == departamento && value.Codigo_mun == municipio) {
+                            dgEstablecimientos.datagrid('appendRow', value);
+                        }
+                    });
+                });
+            }
+        }
+    }
+})();

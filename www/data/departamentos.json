@@ -1,0 +1,90 @@
+﻿[
+	{
+		"Codigo_dep": "1",
+		"Departamento": "GUATEMALA"
+	},
+	{
+		"Codigo_dep": "2",
+		"Departamento": "EL PROGRESO"
+	},
+	{
+		"Codigo_dep": "3",
+		"Departamento": "SACATEPEQUEZ"
+	},
+	{
+		"Codigo_dep": "4",
+		"Departamento": "CHIMALTENANGO"
+	},
+	{
+		"Codigo_dep": "5",
+		"Departamento": "ESCUINTLA"
+	},
+	{
+		"Codigo_dep": "6",
+		"Departamento": "SANTA ROSA"
+	},
+	{
+		"Codigo_dep": "7",
+		"Departamento": "SOLOLA"
+	},
+	{
+		"Codigo_dep": "8",
+		"Departamento": "TOTONICAPAN"
+	},
+	{
+		"Codigo_dep": "9",
+		"Departamento": "QUETZALTENANGO"
+	},
+	{
+		"Codigo_dep": "10",
+		"Departamento": "SUCHITEPEQUEZ"
+	},
+	{
+		"Codigo_dep": "11",
+		"Departamento": "RETALHULEU"
+	},
+	{
+		"Codigo_dep": "12",
+		"Departamento": "SAN MARCOS"
+	},
+	{
+		"Codigo_dep": "13",
+		"Departamento": "HUEHUETENANGO"
+	},
+	{
+		"Codigo_dep": "14",
+		"Departamento": "QUICHE"
+	},
+	{
+		"Codigo_dep": "15",
+		"Departamento": "BAJA VERAPAZ"
+	},
+	{
+		"Codigo_dep": "16",
+		"Departamento": "ALTA VERAPAZ"
+	},
+	{
+		"Codigo_dep": "17",
+		"Departamento": "PETEN"
+	},
+	{
+		"Codigo_dep": "18",
+		"Departamento": "IZABAL"
+	},
+	{
+		"Codigo_dep": "19",
+		"Departamento": "ZACAPA"
+	},
+	{
+		"Codigo_dep": "20",
+		"Departamento": "CHIQUIMULA"
+	},
+	{
+		"Codigo_dep": "21",
+		"Departamento": "JALAPA"
+	},
+	{
+		"Codigo_dep": "22",
+		"Departamento": "JUTIAPA"
+	}
+]

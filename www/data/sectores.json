@@ -1,0 +1,18 @@
+﻿[
+	{
+		"Codigo_sec": "1",
+		"Sector": "OFICIAL"
+	},
+	{
+		"Codigo_sec": "2",
+		"Sector": "PRIVADO"
+	},
+	{
+		"Codigo_sec": "3",
+		"Sector": "MUNICIPAL"
+	},
+	{
+		"Codigo_sec": "4",
+		"Sector": "COOPERATIVA"
+	}
+]

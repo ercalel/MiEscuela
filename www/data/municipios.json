@@ -1,0 +1,1692 @@
+﻿[
+	{
+		"Codigo_dep": "1",
+		"Codigo_mun": "1",
+		"Municipio": "GUATEMALA"
+	},
+	{
+		"Codigo_dep": "1",
+		"Codigo_mun": "2",
+		"Municipio": "SANTA CATARINA PINULA"
+	},
+	{
+		"Codigo_dep": "1",
+		"Codigo_mun": "3",
+		"Municipio": "SAN JOSE PINULA"
+	},
+	{
+		"Codigo_dep": "1",
+		"Codigo_mun": "4",
+		"Municipio": "SAN JOSE DEL GOLFO"
+	},
+	{
+		"Codigo_dep": "1",
+		"Codigo_mun": "5",
+		"Municipio": "PALENCIA"
+	},
+	{
+		"Codigo_dep": "1",
+		"Codigo_mun": "6",
+		"Municipio": "CHINAUTLA"
+	},
+	{
+		"Codigo_dep": "1",
+		"Codigo_mun": "7",
+		"Municipio": "SAN PEDRO AYAMPUC"
+	},
+	{
+		"Codigo_dep": "1",
+		"Codigo_mun": "8",
+		"Municipio": "MIXCO"
+	},
+	{
+		"Codigo_dep": "1",
+		"Codigo_mun": "9",
+		"Municipio": "SAN PEDRO SACATEPEQUEZ"
+	},
+	{
+		"Codigo_dep": "1",
+		"Codigo_mun": "10",
+		"Municipio": "SAN JUAN SACATEPEQUEZ"
+	},
+	{
+		"Codigo_dep": "1",
+		"Codigo_mun": "11",
+		"Municipio": "SAN RAYMUNDO"
+	},
+	{
+		"Codigo_dep": "1",
+		"Codigo_mun": "12",
+		"Municipio": "CHUARRANCHO"
+	},
+	{
+		"Codigo_dep": "1",
+		"Codigo_mun": "13",
+		"Municipio": "FRAIJANES"
+	},
+	{
+		"Codigo_dep": "1",
+		"Codigo_mun": "14",
+		"Municipio": "AMATITLAN"
+	},
+	{
+		"Codigo_dep": "1",
+		"Codigo_mun": "15",
+		"Municipio": "VILLA NUEVA"
+	},
+	{
+		"Codigo_dep": "1",
+		"Codigo_mun": "16",
+		"Municipio": "VILLA CANALES"
+	},
+	{
+		"Codigo_dep": "1",
+		"Codigo_mun": "17",
+		"Municipio": "SAN MIGUEL PETAPA"
+	},
+	{
+		"Codigo_dep": "2",
+		"Codigo_mun": "1",
+		"Municipio": "GUASTATOYA"
+	},
+	{
+		"Codigo_dep": "2",
+		"Codigo_mun": "2",
+		"Municipio": "MORAZAN"
+	},
+	{
+		"Codigo_dep": "2",
+		"Codigo_mun": "3",
+		"Municipio": "SAN AGUSTIN ACASAGUASTLAN"
+	},
+	{
+		"Codigo_dep": "2",
+		"Codigo_mun": "4",
+		"Municipio": "SAN CRISTOBAL ACASAGUASTLAN"
+	},
+	{
+		"Codigo_dep": "2",
+		"Codigo_mun": "5",
+		"Municipio": "EL JICARO"
+	},
+	{
+		"Codigo_dep": "2",
+		"Codigo_mun": "6",
+		"Municipio": "SANSARE"
+	},
+	{
+		"Codigo_dep": "2",
+		"Codigo_mun": "7",
+		"Municipio": "SANARATE"
+	},
+	{
+		"Codigo_dep": "2",
+		"Codigo_mun": "8",
+		"Municipio": "SAN ANTONIO LA PAZ"
+	},
+	{
+		"Codigo_dep": "3",
+		"Codigo_mun": "1",
+		"Municipio": "ANTIGUA GUATEMALA"
+	},
+	{
+		"Codigo_dep": "3",
+		"Codigo_mun": "2",
+		"Municipio": "JOCOTENANGO"
+	},
+	{
+		"Codigo_dep": "3",
+		"Codigo_mun": "3",
+		"Municipio": "PASTORES"
+	},
+	{
+		"Codigo_dep": "3",
+		"Codigo_mun": "4",
+		"Municipio": "SUMPANGO"
+	},
+	{
+		"Codigo_dep": "3",
+		"Codigo_mun": "5",
+		"Municipio": "SANTO DOMINGO XENACOJ"
+	},
+	{
+		"Codigo_dep": "3",
+		"Codigo_mun": "6",
+		"Municipio": "SANTIAGO SACATEPEQUEZ"
+	},
+	{
+		"Codigo_dep": "3",
+		"Codigo_mun": "7",
+		"Municipio": "SAN BARTOLOME MILPAS ALTAS"
+	},
+	{
+		"Codigo_dep": "3",
+		"Codigo_mun": "8",
+		"Municipio": "SAN LUCAS SACATEPEQUEZ"
+	},
+	{
+		"Codigo_dep": "3",
+		"Codigo_mun": "9",
+		"Municipio": "SANTA LUCIA MILPAS ALTAS"
+	},
+	{
+		"Codigo_dep": "3",
+		"Codigo_mun": "10",
+		"Municipio": "MAGDALENA MILPAS ALTAS"
+	},
+	{
+		"Codigo_dep": "3",
+		"Codigo_mun": "11",
+		"Municipio": "SANTA MARIA DE JESUS"
+	},
+	{
+		"Codigo_dep": "3",
+		"Codigo_mun": "12",
+		"Municipio": "CIUDAD VIEJA"
+	},
+	{
+		"Codigo_dep": "3",
+		"Codigo_mun": "13",
+		"Municipio": "SAN MIGUEL DUENAS"
+	},
+	{
+		"Codigo_dep": "3",
+		"Codigo_mun": "14",
+		"Municipio": "ALOTENANGO"
+	},
+	{
+		"Codigo_dep": "3",
+		"Codigo_mun": "15",
+		"Municipio": "SAN ANTONIO AGUAS CALIENTES"
+	},
+	{
+		"Codigo_dep": "3",
+		"Codigo_mun": "16",
+		"Municipio": "SANTA CATARINA BARAHONA"
+	},
+	{
+		"Codigo_dep": "4",
+		"Codigo_mun": "1",
+		"Municipio": "CHIMALTENANGO"
+	},
+	{
+		"Codigo_dep": "4",
+		"Codigo_mun": "2",
+		"Municipio": "SAN JOSE POAQUIL"
+	},
+	{
+		"Codigo_dep": "4",
+		"Codigo_mun": "3",
+		"Municipio": "SAN MARTIN JILOTEPEQUE"
+	},
+	{
+		"Codigo_dep": "4",
+		"Codigo_mun": "4",
+		"Municipio": "SAN JUAN COMALAPA"
+	},
+	{
+		"Codigo_dep": "4",
+		"Codigo_mun": "5",
+		"Municipio": "SANTA APOLONIA"
+	},
+	{
+		"Codigo_dep": "4",
+		"Codigo_mun": "6",
+		"Municipio": "TECPAN GUATEMALA"
+	},
+	{
+		"Codigo_dep": "4",
+		"Codigo_mun": "7",
+		"Municipio": "PATZUN"
+	},
+	{
+		"Codigo_dep": "4",
+		"Codigo_mun": "8",
+		"Municipio": "SAN MIGUEL POCHUTA"
+	},
+	{
+		"Codigo_dep": "4",
+		"Codigo_mun": "9",
+		"Municipio": "PATZICIA"
+	},
+	{
+		"Codigo_dep": "4",
+		"Codigo_mun": "10",
+		"Municipio": "SANTA CRUZ BALANYA"
+	},
+	{
+		"Codigo_dep": "4",
+		"Codigo_mun": "12",
+		"Municipio": "SAN PEDRO YEPOCAPA"
+	},
+	{
+		"Codigo_dep": "4",
+		"Codigo_mun": "13",
+		"Municipio": "SAN ANDRES ITZAPA"
+	},
+	{
+		"Codigo_dep": "4",
+		"Codigo_mun": "14",
+		"Municipio": "PARRAMOS"
+	},
+	{
+		"Codigo_dep": "4",
+		"Codigo_mun": "15",
+		"Municipio": "ZARAGOZA"
+	},
+	{
+		"Codigo_dep": "4",
+		"Codigo_mun": "16",
+		"Municipio": "EL TEJAR"
+	},
+	{
+		"Codigo_dep": "4",
+		"Codigo_mun": "11",
+		"Municipio": "ACATENANGO"
+	},
+	{
+		"Codigo_dep": "5",
+		"Codigo_mun": "1",
+		"Municipio": "ESCUINTLA"
+	},
+	{
+		"Codigo_dep": "5",
+		"Codigo_mun": "2",
+		"Municipio": "SANTA LUCIA COTZUMALGUAPA"
+	},
+	{
+		"Codigo_dep": "5",
+		"Codigo_mun": "3",
+		"Municipio": "LA DEMOCRACIA"
+	},
+	{
+		"Codigo_dep": "5",
+		"Codigo_mun": "4",
+		"Municipio": "SIQUINALA"
+	},
+	{
+		"Codigo_dep": "5",
+		"Codigo_mun": "5",
+		"Municipio": "MASAGUA"
+	},
+	{
+		"Codigo_dep": "5",
+		"Codigo_mun": "6",
+		"Municipio": "TIQUISATE"
+	},
+	{
+		"Codigo_dep": "5",
+		"Codigo_mun": "7",
+		"Municipio": "LA GOMERA"
+	},
+	{
+		"Codigo_dep": "5",
+		"Codigo_mun": "8",
+		"Municipio": "GUANAGAZAPA"
+	},
+	{
+		"Codigo_dep": "5",
+		"Codigo_mun": "9",
+		"Municipio": "SAN JOSE"
+	},
+	{
+		"Codigo_dep": "5",
+		"Codigo_mun": "10",
+		"Municipio": "IZTAPA"
+	},
+	{
+		"Codigo_dep": "5",
+		"Codigo_mun": "11",
+		"Municipio": "PALIN"
+	},
+	{
+		"Codigo_dep": "5",
+		"Codigo_mun": "12",
+		"Municipio": "SAN VICENTE PACAYA"
+	},
+	{
+		"Codigo_dep": "5",
+		"Codigo_mun": "13",
+		"Municipio": "NUEVA CONCEPCION"
+	},
+	{
+		"Codigo_dep": "6",
+		"Codigo_mun": "1",
+		"Municipio": "CUILAPA"
+	},
+	{
+		"Codigo_dep": "6",
+		"Codigo_mun": "2",
+		"Municipio": "BARBERENA"
+	},
+	{
+		"Codigo_dep": "6",
+		"Codigo_mun": "3",
+		"Municipio": "SANTA ROSA DE LIMA"
+	},
+	{
+		"Codigo_dep": "6",
+		"Codigo_mun": "4",
+		"Municipio": "CASILLAS"
+	},
+	{
+		"Codigo_dep": "6",
+		"Codigo_mun": "5",
+		"Municipio": "SAN RAFAEL LAS FLORES"
+	},
+	{
+		"Codigo_dep": "6",
+		"Codigo_mun": "6",
+		"Municipio": "ORATORIO"
+	},
+	{
+		"Codigo_dep": "6",
+		"Codigo_mun": "7",
+		"Municipio": "SAN JUAN TECUACO"
+	},
+	{
+		"Codigo_dep": "6",
+		"Codigo_mun": "8",
+		"Municipio": "CHIQUIMULILLA"
+	},
+	{
+		"Codigo_dep": "6",
+		"Codigo_mun": "9",
+		"Municipio": "TAXISCO"
+	},
+	{
+		"Codigo_dep": "6",
+		"Codigo_mun": "10",
+		"Municipio": "SANTA MARIA IXHUATAN"
+	},
+	{
+		"Codigo_dep": "6",
+		"Codigo_mun": "11",
+		"Municipio": "GUAZACAPAN"
+	},
+	{
+		"Codigo_dep": "6",
+		"Codigo_mun": "12",
+		"Municipio": "SANTA CRUZ NARANJO"
+	},
+	{
+		"Codigo_dep": "6",
+		"Codigo_mun": "13",
+		"Municipio": "PUEBLO NUEVO VI?AS"
+	},
+	{
+		"Codigo_dep": "6",
+		"Codigo_mun": "14",
+		"Municipio": "NUEVA SANTA ROSA"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "1",
+		"Municipio": "SOLOLA"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "2",
+		"Municipio": "SAN JOSE CHACAYA"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "3",
+		"Municipio": "SANTA MARIA VISITACION"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "4",
+		"Municipio": "SANTA LUCIA UTATLAN"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "5",
+		"Municipio": "NAHUALA"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "6",
+		"Municipio": "SANTA CATARINA IXTAHUACAN"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "7",
+		"Municipio": "SANTA CLARA LA LAGUNA"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "8",
+		"Municipio": "CONCEPCION"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "9",
+		"Municipio": "SAN ANDRES SEMETABAJ"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "10",
+		"Municipio": "PANAJACHEL"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "11",
+		"Municipio": "SANTA CATARINA PALOPO"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "12",
+		"Municipio": "SAN ANTONIO PALOPO"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "13",
+		"Municipio": "SAN LUCAS TOLIMAN"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "14",
+		"Municipio": "SANTA CRUZ LA LAGUNA"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "15",
+		"Municipio": "SAN PABLO LA LAGUNA"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "16",
+		"Municipio": "SAN MARCOS LA LAGUNA"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "17",
+		"Municipio": "SAN JUAN LA LAGUNA"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "18",
+		"Municipio": "SAN PEDRO LA LAGUNA"
+	},
+	{
+		"Codigo_dep": "7",
+		"Codigo_mun": "19",
+		"Municipio": "SANTIAGO ATITLAN"
+	},
+	{
+		"Codigo_dep": "8",
+		"Codigo_mun": "1",
+		"Municipio": "TOTONICAPAN"
+	},
+	{
+		"Codigo_dep": "8",
+		"Codigo_mun": "2",
+		"Municipio": "SAN CRISTOBAL TOTONICAPAN"
+	},
+	{
+		"Codigo_dep": "8",
+		"Codigo_mun": "3",
+		"Municipio": "SAN FRANCISCO EL ALTO"
+	},
+	{
+		"Codigo_dep": "8",
+		"Codigo_mun": "4",
+		"Municipio": "SAN ANDRES XECUL"
+	},
+	{
+		"Codigo_dep": "8",
+		"Codigo_mun": "5",
+		"Municipio": "MOMOSTENANGO"
+	},
+	{
+		"Codigo_dep": "8",
+		"Codigo_mun": "6",
+		"Municipio": "SANTA MARIA CHIQUIMULA"
+	},
+	{
+		"Codigo_dep": "8",
+		"Codigo_mun": "7",
+		"Municipio": "SANTA LUCIA LA REFORMA"
+	},
+	{
+		"Codigo_dep": "8",
+		"Codigo_mun": "8",
+		"Municipio": "SAN BARTOLO AGUAS CALIENTES"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "1",
+		"Municipio": "QUETZALTENANGO"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "2",
+		"Municipio": "SALCAJA"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "3",
+		"Municipio": "OLINTEPEQUE"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "4",
+		"Municipio": "SAN CARLOS SIJA"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "5",
+		"Municipio": "SIBILIA"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "6",
+		"Municipio": "CABRICAN"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "7",
+		"Municipio": "CAJOLA"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "8",
+		"Municipio": "SAN MIGUEL SIGUILA"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "9",
+		"Municipio": "SAN JUAN OSTUNCALCO"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "10",
+		"Municipio": "SAN MATEO"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "11",
+		"Municipio": "CONCEPCION CHIQUIRICHAPA"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "12",
+		"Municipio": "SAN MARTIN SACATEPEQUEZ"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "13",
+		"Municipio": "ALMOLONGA"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "14",
+		"Municipio": "CANTEL"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "15",
+		"Municipio": "HUITAN"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "16",
+		"Municipio": "ZUNIL"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "17",
+		"Municipio": "COLOMBA COSTA CUCA"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "18",
+		"Municipio": "SAN FRANCISCO LA UNION"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "19",
+		"Municipio": "EL PALMAR"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "20",
+		"Municipio": "COATEPEQUE"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "21",
+		"Municipio": "GENOVA COSTA CUCA"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "22",
+		"Municipio": "FLORES COSTA CUCA"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "23",
+		"Municipio": "LA ESPERANZA"
+	},
+	{
+		"Codigo_dep": "9",
+		"Codigo_mun": "24",
+		"Municipio": "PALESTINA DE LOS ALTOS"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "1",
+		"Municipio": "MAZATENANGO"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "2",
+		"Municipio": "CUYOTENANGO"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "3",
+		"Municipio": "SAN FRANCISCO ZAPOTITLAN"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "4",
+		"Municipio": "SAN BERNARDINO"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "5",
+		"Municipio": "SAN JOSE EL IDOLO"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "6",
+		"Municipio": "SANTO DOMINGO SUCHITEPEQUEZ"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "7",
+		"Municipio": "SAN LORENZO"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "8",
+		"Municipio": "SAMAYAC"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "9",
+		"Municipio": "SAN PABLO JOCOPILAS"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "10",
+		"Municipio": "SAN ANTONIO SUCHITEPEQUEZ"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "11",
+		"Municipio": "SAN MIGUEL PANAM"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "12",
+		"Municipio": "SAN GABRIEL"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "13",
+		"Municipio": "CHICACAO"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "14",
+		"Municipio": "PATULUL"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "15",
+		"Municipio": "SANTA BARBARA"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "16",
+		"Municipio": "SAN JUAN BAUTISTA"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "17",
+		"Municipio": "SANTO TOMAS LA UNION"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "18",
+		"Municipio": "ZUNILITO"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "19",
+		"Municipio": "PUEBLO NUEVO"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "20",
+		"Municipio": "RIO BRAVO"
+	},
+	{
+		"Codigo_dep": "10",
+		"Codigo_mun": "21",
+		"Municipio": "SAN JOSE LA MAQUINA"
+	},
+	{
+		"Codigo_dep": "11",
+		"Codigo_mun": "1",
+		"Municipio": "RETALHULEU"
+	},
+	{
+		"Codigo_dep": "11",
+		"Codigo_mun": "2",
+		"Municipio": "SAN SEBASTIAN"
+	},
+	{
+		"Codigo_dep": "11",
+		"Codigo_mun": "3",
+		"Municipio": "SANTA CRUZ MULUA"
+	},
+	{
+		"Codigo_dep": "11",
+		"Codigo_mun": "4",
+		"Municipio": "SAN MARTIN ZAPOTITLAN"
+	},
+	{
+		"Codigo_dep": "11",
+		"Codigo_mun": "5",
+		"Municipio": "SAN FELIPE"
+	},
+	{
+		"Codigo_dep": "11",
+		"Codigo_mun": "6",
+		"Municipio": "SAN ANDRES VILLA SECA"
+	},
+	{
+		"Codigo_dep": "11",
+		"Codigo_mun": "7",
+		"Municipio": "CHAMPERICO"
+	},
+	{
+		"Codigo_dep": "11",
+		"Codigo_mun": "8",
+		"Municipio": "NUEVO SAN CARLOS"
+	},
+	{
+		"Codigo_dep": "11",
+		"Codigo_mun": "9",
+		"Municipio": "EL ASINTAL"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "1",
+		"Municipio": "SAN MARCOS"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "2",
+		"Municipio": "SAN PEDRO SACATEPEQUEZ"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "3",
+		"Municipio": "SAN ANTONIO SACATEPEQUEZ"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "4",
+		"Municipio": "COMITANCILLO"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "5",
+		"Municipio": "SAN MIGUEL IXTAHUACAN"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "6",
+		"Municipio": "CONCEPCION TUTUAPA"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "7",
+		"Municipio": "TACANA"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "8",
+		"Municipio": "SIBINAL"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "9",
+		"Municipio": "TAJUMULCO"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "10",
+		"Municipio": "TEJUTLA"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "11",
+		"Municipio": "SAN RAFAEL PIE DE LA CUESTA"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "12",
+		"Municipio": "NUEVO PROGRESO"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "13",
+		"Municipio": "EL TUMBADOR"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "14",
+		"Municipio": "SAN JOSE EL RODEO"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "15",
+		"Municipio": "MALACATAN"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "16",
+		"Municipio": "CATARINA"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "17",
+		"Municipio": "AYUTLA"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "18",
+		"Municipio": "OCOS"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "19",
+		"Municipio": "SAN PABLO"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "20",
+		"Municipio": "EL QUETZAL"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "21",
+		"Municipio": "LA REFORMA"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "22",
+		"Municipio": "PAJAPITA"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "23",
+		"Municipio": "IXCHIGUAN"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "24",
+		"Municipio": "SAN JOSE OJETENAM"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "25",
+		"Municipio": "SAN CRISTOBAL CUCHO"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "26",
+		"Municipio": "SIPACAPA"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "27",
+		"Municipio": "ESQUIPULAS PALO GORDO"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "28",
+		"Municipio": "RIO BLANCO"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "29",
+		"Municipio": "SAN LORENZO"
+	},
+	{
+		"Codigo_dep": "12",
+		"Codigo_mun": "30",
+		"Municipio": "LA BLANCA"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "1",
+		"Municipio": "HUEHUETENANGO"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "2",
+		"Municipio": "CHIANTLA"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "3",
+		"Municipio": "MALACATANCITO"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "4",
+		"Municipio": "CUILCO"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "5",
+		"Municipio": "NENTON"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "6",
+		"Municipio": "SAN PEDRO NECTA"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "7",
+		"Municipio": "JACALTENANGO"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "8",
+		"Municipio": "SAN PEDRO SOLOMA"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "9",
+		"Municipio": "SAN ILDEFONSO IXTAHUACAN"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "10",
+		"Municipio": "SANTA BARBARA"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "11",
+		"Municipio": "LA LIBERTAD"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "12",
+		"Municipio": "LA DEMOCRACIA"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "13",
+		"Municipio": "SAN MIGUEL ACATAN"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "14",
+		"Municipio": "SAN RAFAEL LA INDEPENDENCIA"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "15",
+		"Municipio": "TODOS SANTOS CUCHUMATAN"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "16",
+		"Municipio": "SAN JUAN ATITAN"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "17",
+		"Municipio": "SANTA EULALIA"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "18",
+		"Municipio": "SAN MATEO IXTATAN"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "19",
+		"Municipio": "COLOTENANGO"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "20",
+		"Municipio": "SAN SEBASTIAN HUEHUETENANGO"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "21",
+		"Municipio": "TECTITAN"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "22",
+		"Municipio": "CONCEPCION HUISTA"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "23",
+		"Municipio": "SAN JUAN IXCOY"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "24",
+		"Municipio": "SAN ANTONIO HUISTA"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "25",
+		"Municipio": "SAN SEBASTIAN COATAN"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "26",
+		"Municipio": "SANTA CRUZ BARILLAS"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "27",
+		"Municipio": "AGUACATAN"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "28",
+		"Municipio": "SAN RAFAEL PETZAL"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "29",
+		"Municipio": "SAN GASPAR IXCHIL"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "30",
+		"Municipio": "SANTIAGO CHIMALTENANGO"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "31",
+		"Municipio": "SANTA ANA HUISTA"
+	},
+	{
+		"Codigo_dep": "13",
+		"Codigo_mun": "32",
+		"Municipio": "UNION CANTINIL"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "1",
+		"Municipio": "SANTA CRUZ DEL QUICHE"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "2",
+		"Municipio": "CHICHE"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "3",
+		"Municipio": "CHINIQUE"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "4",
+		"Municipio": "ZACUALPA"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "5",
+		"Municipio": "CHAJUL"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "6",
+		"Municipio": "SANTO TOMAS CHICHICASTENANGO"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "7",
+		"Municipio": "PATZITE"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "8",
+		"Municipio": "SAN ANTONIO ILOTENANGO"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "9",
+		"Municipio": "SAN PEDRO JOCOPILAS"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "10",
+		"Municipio": "CUNEN"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "11",
+		"Municipio": "SAN JUAN COTZAL"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "12",
+		"Municipio": "JOYABAJ"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "13",
+		"Municipio": "NEBAJ"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "14",
+		"Municipio": "SAN ANDRES SAJCABAJA"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "15",
+		"Municipio": "SAN MIGUEL USPANTAN"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "16",
+		"Municipio": "SACAPULAS"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "17",
+		"Municipio": "SAN BARTOLOME JOCOTENANGO"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "18",
+		"Municipio": "CANILLA"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "19",
+		"Municipio": "CHICAMAN"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "20",
+		"Municipio": "IXCAN"
+	},
+	{
+		"Codigo_dep": "14",
+		"Codigo_mun": "21",
+		"Municipio": "PACHALUN"
+	},
+	{
+		"Codigo_dep": "15",
+		"Codigo_mun": "1",
+		"Municipio": "SALAMA"
+	},
+	{
+		"Codigo_dep": "15",
+		"Codigo_mun": "2",
+		"Municipio": "SAN MIGUEL CHICAJ"
+	},
+	{
+		"Codigo_dep": "15",
+		"Codigo_mun": "3",
+		"Municipio": "RABINAL"
+	},
+	{
+		"Codigo_dep": "15",
+		"Codigo_mun": "4",
+		"Municipio": "CUBULCO"
+	},
+	{
+		"Codigo_dep": "15",
+		"Codigo_mun": "5",
+		"Municipio": "GRANADOS"
+	},
+	{
+		"Codigo_dep": "15",
+		"Codigo_mun": "6",
+		"Municipio": "SANTA CRUZ EL CHOL"
+	},
+	{
+		"Codigo_dep": "15",
+		"Codigo_mun": "7",
+		"Municipio": "SAN JERONIMO"
+	},
+	{
+		"Codigo_dep": "15",
+		"Codigo_mun": "8",
+		"Municipio": "PURULHA"
+	},
+	{
+		"Codigo_dep": "16",
+		"Codigo_mun": "1",
+		"Municipio": "COBAN"
+	},
+	{
+		"Codigo_dep": "16",
+		"Codigo_mun": "2",
+		"Municipio": "SANTA CRUZ VERAPAZ"
+	},
+	{
+		"Codigo_dep": "16",
+		"Codigo_mun": "3",
+		"Municipio": "SAN CRISTOBAL VERAPAZ"
+	},
+	{
+		"Codigo_dep": "16",
+		"Codigo_mun": "4",
+		"Municipio": "TACTIC"
+	},
+	{
+		"Codigo_dep": "16",
+		"Codigo_mun": "5",
+		"Municipio": "TAMAHU"
+	},
+	{
+		"Codigo_dep": "16",
+		"Codigo_mun": "6",
+		"Municipio": "SAN MIGUEL TUCURU"
+	},
+	{
+		"Codigo_dep": "16",
+		"Codigo_mun": "7",
+		"Municipio": "PANZOS"
+	},
+	{
+		"Codigo_dep": "16",
+		"Codigo_mun": "8",
+		"Municipio": "SENAHU"
+	},
+	{
+		"Codigo_dep": "16",
+		"Codigo_mun": "9",
+		"Municipio": "SAN PEDRO CARCHA"
+	},
+	{
+		"Codigo_dep": "16",
+		"Codigo_mun": "10",
+		"Municipio": "SAN JUAN CHAMELCO"
+	},
+	{
+		"Codigo_dep": "16",
+		"Codigo_mun": "11",
+		"Municipio": "LANQUIN"
+	},
+	{
+		"Codigo_dep": "16",
+		"Codigo_mun": "12",
+		"Municipio": "SANTA MARIA CAHABON"
+	},
+	{
+		"Codigo_dep": "16",
+		"Codigo_mun": "13",
+		"Municipio": "CHISEC"
+	},
+	{
+		"Codigo_dep": "16",
+		"Codigo_mun": "14",
+		"Municipio": "CHAHAL"
+	},
+	{
+		"Codigo_dep": "16",
+		"Codigo_mun": "15",
+		"Municipio": "FRAY BARTOLOME DE LAS CASAS"
+	},
+	{
+		"Codigo_dep": "16",
+		"Codigo_mun": "16",
+		"Municipio": "LA TINTA"
+	},
+	{
+		"Codigo_dep": "16",
+		"Codigo_mun": "17",
+		"Municipio": "RAXRUHA"
+	},
+	{
+		"Codigo_dep": "17",
+		"Codigo_mun": "1",
+		"Municipio": "FLORES"
+	},
+	{
+		"Codigo_dep": "17",
+		"Codigo_mun": "2",
+		"Municipio": "SAN JOSE"
+	},
+	{
+		"Codigo_dep": "17",
+		"Codigo_mun": "3",
+		"Municipio": "SAN BENITO"
+	},
+	{
+		"Codigo_dep": "17",
+		"Codigo_mun": "4",
+		"Municipio": "SAN ANDRES"
+	},
+	{
+		"Codigo_dep": "17",
+		"Codigo_mun": "5",
+		"Municipio": "LA LIBERTAD"
+	},
+	{
+		"Codigo_dep": "17",
+		"Codigo_mun": "6",
+		"Municipio": "SAN FRANCISCO"
+	},
+	{
+		"Codigo_dep": "17",
+		"Codigo_mun": "7",
+		"Municipio": "SANTA ANA"
+	},
+	{
+		"Codigo_dep": "17",
+		"Codigo_mun": "8",
+		"Municipio": "DOLORES"
+	},
+	{
+		"Codigo_dep": "17",
+		"Codigo_mun": "9",
+		"Municipio": "SAN LUIS"
+	},
+	{
+		"Codigo_dep": "17",
+		"Codigo_mun": "10",
+		"Municipio": "SAYAXCHE"
+	},
+	{
+		"Codigo_dep": "17",
+		"Codigo_mun": "11",
+		"Municipio": "MELCHOR DE MENCOS"
+	},
+	{
+		"Codigo_dep": "17",
+		"Codigo_mun": "12",
+		"Municipio": "POPTUN"
+	},
+	{
+		"Codigo_dep": "17",
+		"Codigo_mun": "13",
+		"Municipio": "LAS CRUCES"
+	},
+	{
+		"Codigo_dep": "17",
+		"Codigo_mun": "14",
+		"Municipio": "EL CHAL"
+	},
+	{
+		"Codigo_dep": "18",
+		"Codigo_mun": "1",
+		"Municipio": "PUERTO BARRIOS"
+	},
+	{
+		"Codigo_dep": "18",
+		"Codigo_mun": "2",
+		"Municipio": "LIVINGSTON"
+	},
+	{
+		"Codigo_dep": "18",
+		"Codigo_mun": "3",
+		"Municipio": "EL ESTOR"
+	},
+	{
+		"Codigo_dep": "18",
+		"Codigo_mun": "4",
+		"Municipio": "MORALES"
+	},
+	{
+		"Codigo_dep": "18",
+		"Codigo_mun": "5",
+		"Municipio": "LOS AMATES"
+	},
+	{
+		"Codigo_dep": "19",
+		"Codigo_mun": "1",
+		"Municipio": "ZACAPA"
+	},
+	{
+		"Codigo_dep": "19",
+		"Codigo_mun": "2",
+		"Municipio": "ESTANZUELA"
+	},
+	{
+		"Codigo_dep": "19",
+		"Codigo_mun": "3",
+		"Municipio": "RIO HONDO"
+	},
+	{
+		"Codigo_dep": "19",
+		"Codigo_mun": "4",
+		"Municipio": "GUALAN"
+	},
+	{
+		"Codigo_dep": "19",
+		"Codigo_mun": "5",
+		"Municipio": "TECULUTAN"
+	},
+	{
+		"Codigo_dep": "19",
+		"Codigo_mun": "6",
+		"Municipio": "USUMATLAN"
+	},
+	{
+		"Codigo_dep": "19",
+		"Codigo_mun": "7",
+		"Municipio": "CABA?AS"
+	},
+	{
+		"Codigo_dep": "19",
+		"Codigo_mun": "8",
+		"Municipio": "SAN DIEGO"
+	},
+	{
+		"Codigo_dep": "19",
+		"Codigo_mun": "9",
+		"Municipio": "LA UNION"
+	},
+	{
+		"Codigo_dep": "19",
+		"Codigo_mun": "10",
+		"Municipio": "HUITE"
+	},
+	{
+		"Codigo_dep": "19",
+		"Codigo_mun": "11",
+		"Municipio": "SAN JORGE"
+	},
+	{
+		"Codigo_dep": "20",
+		"Codigo_mun": "1",
+		"Municipio": "CHIQUIMULA"
+	},
+	{
+		"Codigo_dep": "20",
+		"Codigo_mun": "2",
+		"Municipio": "SAN JOSE LA ARADA"
+	},
+	{
+		"Codigo_dep": "20",
+		"Codigo_mun": "3",
+		"Municipio": "SAN JUAN ERMITA"
+	},
+	{
+		"Codigo_dep": "20",
+		"Codigo_mun": "4",
+		"Municipio": "JOCOTAN"
+	},
+	{
+		"Codigo_dep": "20",
+		"Codigo_mun": "5",
+		"Municipio": "CAMOTAN"
+	},
+	{
+		"Codigo_dep": "20",
+		"Codigo_mun": "6",
+		"Municipio": "OLOPA"
+	},
+	{
+		"Codigo_dep": "20",
+		"Codigo_mun": "7",
+		"Municipio": "ESQUIPULAS"
+	},
+	{
+		"Codigo_dep": "20",
+		"Codigo_mun": "8",
+		"Municipio": "CONCEPCION LAS MINAS"
+	},
+	{
+		"Codigo_dep": "20",
+		"Codigo_mun": "9",
+		"Municipio": "QUEZALTEPEQUE"
+	},
+	{
+		"Codigo_dep": "20",
+		"Codigo_mun": "10",
+		"Municipio": "SAN JACINTO"
+	},
+	{
+		"Codigo_dep": "20",
+		"Codigo_mun": "11",
+		"Municipio": "IPALA"
+	},
+	{
+		"Codigo_dep": "21",
+		"Codigo_mun": "1",
+		"Municipio": "JALAPA"
+	},
+	{
+		"Codigo_dep": "21",
+		"Codigo_mun": "2",
+		"Municipio": "SAN PEDRO PINULA"
+	},
+	{
+		"Codigo_dep": "21",
+		"Codigo_mun": "3",
+		"Municipio": "SAN LUIS JILOTEPEQUE"
+	},
+	{
+		"Codigo_dep": "21",
+		"Codigo_mun": "4",
+		"Municipio": "SAN MANUEL CHAPARRON"
+	},
+	{
+		"Codigo_dep": "21",
+		"Codigo_mun": "5",
+		"Municipio": "SAN CARLOS ALZATATE"
+	},
+	{
+		"Codigo_dep": "21",
+		"Codigo_mun": "6",
+		"Municipio": "MONJAS"
+	},
+	{
+		"Codigo_dep": "21",
+		"Codigo_mun": "7",
+		"Municipio": "MATAQUESCUINTLA"
+	},
+	{
+		"Codigo_dep": "22",
+		"Codigo_mun": "1",
+		"Municipio": "JUTIAPA"
+	},
+	{
+		"Codigo_dep": "22",
+		"Codigo_mun": "2",
+		"Municipio": "EL PROGRESO"
+	},
+	{
+		"Codigo_dep": "22",
+		"Codigo_mun": "3",
+		"Municipio": "SANTA CATARINA MITA"
+	},
+	{
+		"Codigo_dep": "22",
+		"Codigo_mun": "4",
+		"Municipio": "AGUA BLANCA"
+	},
+	{
+		"Codigo_dep": "22",
+		"Codigo_mun": "5",
+		"Municipio": "ASUNCION MITA"
+	},
+	{
+		"Codigo_dep": "22",
+		"Codigo_mun": "6",
+		"Municipio": "YUPILTEPEQUE"
+	},
+	{
+		"Codigo_dep": "22",
+		"Codigo_mun": "7",
+		"Municipio": "ATESCATEMPA"
+	},
+	{
+		"Codigo_dep": "22",
+		"Codigo_mun": "8",
+		"Municipio": "JEREZ"
+	},
+	{
+		"Codigo_dep": "22",
+		"Codigo_mun": "9",
+		"Municipio": "EL ADELANTO"
+	},
+	{
+		"Codigo_dep": "22",
+		"Codigo_mun": "10",
+		"Municipio": "ZAPOTITLAN"
+	},
+	{
+		"Codigo_dep": "22",
+		"Codigo_mun": "11",
+		"Municipio": "COMAPA"
+	},
+	{
+		"Codigo_dep": "22",
+		"Codigo_mun": "12",
+		"Municipio": "JALPATAGUA"
+	},
+	{
+		"Codigo_dep": "22",
+		"Codigo_mun": "13",
+		"Municipio": "CONGUACO"
+	},
+	{
+		"Codigo_dep": "22",
+		"Codigo_mun": "14",
+		"Municipio": "MOYUTA"
+	},
+	{
+		"Codigo_dep": "22",
+		"Codigo_mun": "15",
+		"Municipio": "PASACO"
+	},
+	{
+		"Codigo_dep": "22",
+		"Codigo_mun": "16",
+		"Municipio": "SAN JOSE ACATEMPA"
+	},
+	{
+		"Codigo_dep": "22",
+		"Codigo_mun": "17",
+		"Municipio": "QUESADA"
+	}
+]
