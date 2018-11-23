@@ -44,7 +44,7 @@
 									data.push(value);
 									municipios.combobox('loadData', data);
 								}
-							});							
+							});
 						});
 					}" id="departamento">
 			</div>
@@ -78,8 +78,8 @@
 			</div>
 			<div style="text-align:center;margin-top:30px">
 				<a href="#pagina2" class="easyui-linkbutton c6" style="width:100%;height:40px" data-options="
-				   animation:'pop',direction:''" 				   
-				   id="buscar">
+				   animation:'pop',
+				   direction:''" id="buscar">
 					<span style="font-size:16px">Buscar</span>
 				</a>
 			</div>
@@ -88,29 +88,33 @@
 			</div>
 		</div>
 	</div>
-
 	<div id="pagina2" class="easyui-navpanel">
 		<header>
 			<div class="m-toolbar">
 				<div class="m-left">
-					<a href="#" class="easyui-linkbutton m-back" data-options="plain:true,outline:true,back:true">Regresar</a>
+					<a href="#" class="easyui-linkbutton m-back" data-options="plain:true,outline:true,animation:'pop'">Regresar</a>
 				</div>
 				<div class="m-title">Lista de establecimientos</div>
 			</div>
 		</header>
-		<table  class="easyui-datagrid" data-options="
+		<table class="easyui-datagrid" data-options="
 			   singleSelect:true,
 			   border:false,
 			   fit:true,
 			   fitColumns:true,
-			   scrollbarSize:0" id="dgEstablecimientos">
+			   scrollbarSize:0,
+			   rownumbers: true" id="dgEstablecimientos">
 			<thead>
 				<tr>
-					<th data-options="field:'Nombre_Est'" width="100%">Nombre</th>
+					<th data-options="
+						field:'Nombre_Est',
+						formatter:function(value,row){
+						return '<a href=\' #pagina3\' class=\'easyui-linkbutton\' animation=\'pop\' direction=\'\'\>' + value + '</a> '; // only line
+						}" width="100%">Nombre
+					</th>
 				</tr>
 			</thead>
 		</table>
-
 		<div id="no_departamento" class="easyui-dialog" style="padding:20px 6px;width:80%;" data-options="inline:true,modal:true,closed:true,title:'Information'">
 			<p style="text-align:center">Se necesita el departamento.</p>
 			<div class="dialog-button">
@@ -120,9 +124,348 @@
 		<div id="no_municipio" class="easyui-dialog" style="padding:20px 6px;width:80%;" data-options="inline:true,modal:true,closed:true,title:'Information'">
 			<p style="text-align:center">Se necesita el munnicipio.</p>
 			<div class="dialog-button">
-				<a href="javascript:void(0)" class="easyui-linkbutton" style="width:100%;height:35px" onclick="$('#no_municipio').dialog('close')">OK</a>	
+				<a href="javascript:void(0)" class="easyui-linkbutton" style="width:100%;height:35px" onclick="$('#no_municipio').dialog('close')">OK</a>
 			</div>
 		</div>
+	</div>
+	<div id="pagina3" class="easyui-navpanel">
+		<header>
+			<div class="m-toolbar">
+				<div class="m-left">
+					<a href="#pagina2" class="easyui-linkbutton m-back" data-options="plain:true,outline:true,back:true,animation:'pop'">Regresar</a>
+				</div>
+				<div class="m-title">Información general</div>
+			</div>
+		</header>
+		<div style="padding:0 20px">
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Código:',
+					  labelPosition:'top',
+					  readonly:true" id="esc_codigo">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Departamento:',
+					  labelPosition:'top',
+					  readonly:true" id="esc_departamento">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Municipio:',
+					  labelPosition:'top',
+					  readonly:true" id="esc_municipio">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Establecimiento:',
+					  labelPosition:'top',
+					  readonly:true" id="esc_nombre">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Dirección:',
+					  labelPosition:'top',
+					  readonly:true" id="esc_direccion">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Telefono:',
+					  labelPosition:'top',
+					  readonly:true" id="esc_telefono">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Distrito supervisión:',
+					  labelPosition:'top',
+					  readonly:true" id="esc_dist_supervision">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Supervisor:',
+					  labelPosition:'top',
+					  readonly:true" id="esc_supervisor">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Director:',
+					  labelPosition:'top',
+					  readonly:true" id="esc_director">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Departamental:',
+					  labelPosition:'top',
+					  readonly:true" id="esc_departamental">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Nivel:',
+					  labelPosition:'top',
+					  readonly:true" id="esc_nivel">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Sector:',
+					  labelPosition:'top',
+					  readonly:true" id="esc_sector">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Área:',
+					  labelPosition:'top',
+					  readonly:true" id="esc_area">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Jornada:',
+					  labelPosition:'top',
+					  readonly:true" id="esc_jornada">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Plan:',
+					  labelPosition:'top',
+					  readonly:true" id="esc_plan">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Modalidad:',
+					  labelPosition:'top',
+					  readonly:true" id="esc_modalidad">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Estado actual:',
+					  labelPosition:'top',
+					  readonly:true" id="esc_estado_actual">
+			</div>
+		</div>
+		<footer>
+			<div class="m-buttongroup m-buttongroup-justified" style="width:100%">
+				<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-iconfinder-note-information',size:'large',iconAlign:'top',plain:true">Información</a>
+				<a href="#pagina4" class="easyui-linkbutton" data-options="iconCls:'icon-large-clipart',size:'large',iconAlign:'top',plain:true">Matrícula</a>
+				<a href="#pagina5" class="easyui-linkbutton" data-options="iconCls:'icon-iconfinder-test-paper',size:'large',iconAlign:'top',plain:true">Resultados</a>
+				<a href="#pagina6" class="easyui-linkbutton" data-options="iconCls:'icon-large-chart',size:'large',iconAlign:'top',plain:true">Indicadores</a>
+			</div>
+		</footer>
+	</div>
+	<div id="pagina4" class="easyui-navpanel">
+		<header>
+			<div class="m-toolbar">
+				<div class="m-left">
+					<a href="#pagina2" class="easyui-linkbutton m-back" data-options="plain:true,outline:true,back:true,animation:'pop'">Regresar</a>
+				</div>
+				<div class="m-title">Matrícula</div>
+			</div>
+		</header>
+
+		<table class="easyui-datagrid" data-options="
+			   singleSelect:true,
+			   border:false,
+			   fit:true,
+			   fitColumns:true,
+			   scrollbarSize:0" id="dgMatriculaEstablecimiento">
+			<thead>
+				<tr>
+					<th data-options="field:'Anio'" width="25%">Año</th>
+					<th data-options="field:'Inscritos_Hombres'" width="25%">Hombres</th>
+					<th data-options="field:'Inscritos_Mujeres'" width="25%">Mujeres</th>
+					<th data-options="field:'Inscritos_Total'" width="25%">Toral inscritos</th>
+				</tr>
+			</thead>
+		</table>		
+		<footer>
+			<div class="m-buttongroup m-buttongroup-justified" style="width:100%">
+				<a href="#pagina3" class="easyui-linkbutton" data-options="iconCls:'icon-iconfinder-note-information',size:'large',iconAlign:'top',plain:true">Información</a>
+				<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-large-clipart',size:'large',iconAlign:'top',plain:true">Matrícula</a>
+				<a href="#pagina5" class="easyui-linkbutton" data-options="iconCls:'icon-iconfinder-test-paper',size:'large',iconAlign:'top',plain:true">Resultados</a>
+				<a href="#pagina6" class="easyui-linkbutton" data-options="iconCls:'icon-large-chart',size:'large',iconAlign:'top',plain:true">Indicadores</a>
+			</div>
+		</footer>
+	</div>
+	<div id="pagina5" class="easyui-navpanel">
+		<header>
+			<div class="m-toolbar">
+				<div class="m-left">
+					<a href="#pagina2" class="easyui-linkbutton m-back" data-options="plain:true,outline:true,back:true,animation:'pop'">Regresar</a>
+				</div>
+				<div class="m-title">Resultados de aprendizaje</div>
+			</div>
+		</header>
+		<div class="easyui-accordion" fit="true" border="false">
+			<div title="Resultado de aprendizaje matemática" style="padding:20px">
+				<div style="margin-bottom:10px">
+					<input class="easyui-combobox" style="width:100%" data-options="
+				label:'Año:',
+				labelPosition:'top',
+				url:'data/niveles.json',
+				method:'get',
+				valueField:'Codigo_niv',
+				textField:'Nivel',
+				prompt:'Año...',
+				panelHeight:'auto'" id="matematica_anio">
+				</div>
+				<div style="margin-bottom:10px">
+					<input class="easyui-textbox" style="width:100%;" data-options="
+				  label:'Total de estudiantes evaluados:',
+				  labelPosition:'top',
+				  readonly:true" id="matematica_total">
+				</div>
+				<div style="margin-bottom:10px">
+					<input class="easyui-textbox" style="width:100%;" data-options="
+				  label:'Logro del establecimiento en Matemáticas:',
+				  labelPosition:'top',
+				  readonly:true" id="matematica_logro">
+				</div>
+				<div style="margin-bottom:10px">
+					<input class="easyui-textbox" style="width:100%;" data-options="
+				  label:'% de estudiantes en el nivel de desempeño Excelente:',
+				  labelPosition:'top',
+				  readonly:true" id="matematica_excelente">
+				</div>
+				<div style="margin-bottom:10px">
+					<input class="easyui-textbox" style="width:100%;" data-options="
+				  label:'% de estudiantes en el nivel de desempeño Satisfactorio:',
+				  labelPosition:'top',
+				  readonly:true" id="matematica_satisfactorio">
+				</div>
+				<div style="margin-bottom:10px">
+					<input class="easyui-textbox" style="width:100%;" data-options="
+				  label:'No Logro del establecimiento en Matemáticas:',
+				  labelPosition:'top',
+				  readonly:true" id="matematica_nologro">
+				</div>
+				<div style="margin-bottom:10px">
+					<input class="easyui-textbox" style="width:100%;" data-options="
+				  label:'% de estudiantes en el nivel de desempeño Debe mejorar:',
+				  labelPosition:'top',
+				  readonly:true" id="matematica_mejorar">
+				</div>
+				<div style="margin-bottom:10px">
+					<input class="easyui-textbox" style="width:100%;" data-options="
+				  label:'% de estudiantes en el nivel de desempeño Insatisfactorio:',
+				  labelPosition:'top',
+				  readonly:true" id="matematica_insatisfactorio">
+				</div>
+			</div>
+			<div title="Resultado de aprendizaje comunicación y lenguaje" style="padding:20px">
+				<div style="margin-bottom:10px">
+					<input class="easyui-combobox" style="width:100%" data-options="
+				label:'Año:',
+				labelPosition:'top',
+				url:'data/niveles.json',
+				method:'get',
+				valueField:'Codigo_niv',
+				textField:'Nivel',
+				prompt:'Año...',
+				panelHeight:'auto'" id="lenguaje_anio">
+				</div>
+				<div style="margin-bottom:10px">
+					<input class="easyui-textbox" style="width:100%;" data-options="
+				  label:'Total de estudiantes evaluados:',
+				  labelPosition:'top',
+				  readonly:true" id="lenguaje_total">
+				</div>
+				<div style="margin-bottom:10px">
+					<input class="easyui-textbox" style="width:100%;" data-options="
+				  label:'Logro del establecimiento en Lenguaje y Comunicación:',
+				  labelPosition:'top',
+				  readonly:true" id="lenguaje_logro">
+				</div>
+				<div style="margin-bottom:10px">
+					<input class="easyui-textbox" style="width:100%;" data-options="
+				  label:'% de estudiantes en el nivel de desempeño Excelente:',
+				  labelPosition:'top',
+				  readonly:true" id="lenguaje_excelente">
+				</div>
+				<div style="margin-bottom:10px">
+					<input class="easyui-textbox" style="width:100%;" data-options="
+				  label:'% de estudiantes en el nivel de desempeño Satisfactorio:',
+				  labelPosition:'top',
+				  readonly:true" id="lenguaje_satisfactorio">
+				</div>
+				<div style="margin-bottom:10px">
+					<input class="easyui-textbox" style="width:100%;" data-options="
+				  label:'No Logro del establecimiento en Lenguaje y Comunicación:',
+				  labelPosition:'top',
+				  readonly:true" id="lenguaje_nologro">
+				</div>
+				<div style="margin-bottom:10px">
+					<input class="easyui-textbox" style="width:100%;" data-options="
+				  label:'% de estudiantes en el nivel de desempeño Debe mejorar:',
+				  labelPosition:'top',
+				  readonly:true" id="lenguaje_mejorar">
+				</div>
+				<div style="margin-bottom:10px">
+					<input class="easyui-textbox" style="width:100%;" data-options="
+				  label:'% de estudiantes en el nivel de desempeño Insatisfactorio:',
+				  labelPosition:'top',
+				  readonly:true" id="lenguaje_insatisfactorio">
+				</div>
+			</div>
+			<div title="Historial  - Resultado de aprendizaje" style="padding:20px">
+
+			</div>
+		</div>
+		<footer>
+			<div class="m-buttongroup m-buttongroup-justified" style="width:100%">
+				<a href="#pagina3" class="easyui-linkbutton" data-options="iconCls:'icon-iconfinder-note-information',size:'large',iconAlign:'top',plain:true">Información</a>
+				<a href="#pagina4" class="easyui-linkbutton" data-options="iconCls:'icon-large-clipart',size:'large',iconAlign:'top',plain:true">Matrícula</a>
+				<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-iconfinder-test-paper',size:'large',iconAlign:'top',plain:true">Resultados</a>
+				<a href="#pagina6" class="easyui-linkbutton" data-options="iconCls:'icon-large-chart',size:'large',iconAlign:'top',plain:true">Indicadores</a>
+			</div>
+		</footer>
+	</div>
+	<div id="pagina6" class="easyui-navpanel">
+		<header>
+			<div class="m-toolbar">
+				<div class="m-left">
+					<a href="#pagina2" class="easyui-linkbutton m-back" data-options="plain:true,outline:true,back:true,animation:'pop'">Regresar</a>
+				</div>
+				<div class="m-title">Indicadores educativos</div>
+			</div>
+		</header>
+		<div style="padding:0 20px">
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Tasa de eficiencia interna:',
+					  labelPosition:'top',
+					  readonly:true" id="tasa_eficiencia_interna">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Tasa neta:',
+					  labelPosition:'top',
+					  readonly:true" id="tasa_neta">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Tasa bruta:',
+					  labelPosition:'top',
+					  readonly:true" id="tasa_bruta">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Tasa de promoción:',
+					  labelPosition:'top',
+					  readonly:true" id="tasa_promocion">
+			</div>
+			<div style="margin-bottom:10px">
+				<input class="easyui-textbox" style="width:100%;" data-options="
+					  label:'Tasa de deserción:',
+					  labelPosition:'top',
+					  readonly:true" id="tasa_desercion">
+			</div>
+		</div>		
+		<footer>
+			<div class="m-buttongroup m-buttongroup-justified" style="width:100%">
+				<a href="#pagina3" class="easyui-linkbutton" data-options="iconCls:'icon-iconfinder-note-information',size:'large',iconAlign:'top',plain:true">Información</a>
+				<a href="#pagina4" class="easyui-linkbutton" data-options="iconCls:'icon-large-clipart',size:'large',iconAlign:'top',plain:true">Matrícula</a>
+				<a href="#pagina5" class="easyui-linkbutton" data-options="iconCls:'icon-iconfinder-test-paper',size:'large',iconAlign:'top',plain:true">Resultados</a>
+				<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-large-chart',size:'large',iconAlign:'top',plain:true">Indicadores</a>
+			</div>
+		</footer>
 	</div>
 
 	<script type="text/javascript" src="cordova.js"></script>
