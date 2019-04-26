@@ -1,11 +1,11 @@
 {
      "android": {
-         "release": {
-             "keystore": "",
-             "storePassword": "",
-             "alias": "",
-             "password" : "",
-             "keystoreType": ""
-         }
+			"release": {
+				"keystore": "c:\\dev\\jd-release-key.keystore",
+				"storePassword": "roottoor",
+				"alias": "android-key",
+				"password": "roottoor",
+				"keystoreType": ""
+			}
      }
  }

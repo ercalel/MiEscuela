@@ -105,9 +105,6 @@
                     }
                 });
             });
-
-
-
         } else {
             console.log("No row selected...");
         }
