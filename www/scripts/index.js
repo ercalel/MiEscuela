@@ -10,6 +10,7 @@
 
         // Página 1
         document.getElementById("buscar").addEventListener('click', buscar_escuela, false);
+        document.getElementById("limpiar").addEventListener('click', limpiar_formulario, false);
         // Fin página 1....................................................................................
 
         // Página 2
@@ -47,20 +48,20 @@
                         if (value.Codigo_dep == departamento && value.Codigo_mun == municipio) {
                             if (nivel == "" && sector == "" && nombre_escuela == "") {
                                 dgEstablecimientos.datagrid('appendRow', value);
-                            } else if (nivel == "" && sector == "" && nombre_escuela != "") {
-                                // Implementar like
+                            } else if (nivel == "" && sector == "" && nombre_escuela != "" && String(nombre_escuela.toLowerCase().trim()) == String(value.Nombre_Est.toLowerCase().trim())) {
+                                dgEstablecimientos.datagrid('appendRow', value);
                             } else if (nivel == "" && sector != "" && sector == value.Sector && nombre_escuela == "") {
                                 dgEstablecimientos.datagrid('appendRow', value);
-                            } else if (nivel == "" && sector != "" && sector == value.Sector && nombre_escuela != "") {
-                                // Implementar like
+                            } else if (nivel == "" && sector != "" && sector == value.Sector && nombre_escuela != "" && String(nombre_escuela.toLowerCase().trim()) == String(value.Nombre_Est.toLowerCase().trim())) {
+                                dgEstablecimientos.datagrid('appendRow', value);
                             } else if (nivel != "" && nivel == value.Nivel && sector == "" && nombre_escuela == "") {
                                 dgEstablecimientos.datagrid('appendRow', value);
-                            } else if (nivel != "" && nivel == value.Nivel && sector == "" && nombre_escuela != "") {
-                                // Implementar like
+                            } else if (nivel != "" && nivel == value.Nivel && sector == "" && nombre_escuela != "" && String(nombre_escuela.toLowerCase().trim()) == String(value.Nombre_Est.toLowerCase().trim())) {
+                                dgEstablecimientos.datagrid('appendRow', value);
                             } else if (nivel != "" && nivel == value.Nivel && sector != "" && sector == value.Sector && nombre_escuela == "") {
                                 dgEstablecimientos.datagrid('appendRow', value);
-                            } else if (nivel != "" && nivel == value.Nivel && sector != "" && sector == value.Sector && nombre_escuela != "") {
-                                // Implementar like
+                            } else if (nivel != "" && nivel == value.Nivel && sector != "" && sector == value.Sector && nombre_escuela != "" && String(nombre_escuela.toLowerCase().trim()) == String(value.Nombre_Est.toLowerCase().trim())) {
+                                dgEstablecimientos.datagrid('appendRow', value);
                             }
                         }
                     });
@@ -108,5 +109,13 @@
         } else {
             console.log("No row selected...");
         }
+    }
+
+    function limpiar_formulario() {
+        $('#nombre_escuela').textbox('clear');
+        $('#sector').combobox('clear');
+        $('#nivel').combobox('clear');
+        $('#municipio').combobox('clear');
+        $('#departamento').combobox('clear');       
     }
 })();
